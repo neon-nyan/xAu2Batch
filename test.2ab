@@ -1,0 +1,25 @@
+// Ini adalah comment line!
+// Untuk hal ini, ada beberapa kelas pemetaan comment line, yaitu:
+//  1. [//]  digunakan untuk comment line biasa dan bersifat
+//           non-displayable.
+//  2. [#]   digunakan untuk comment line, namun bersifat displayable.
+//  3. [@]   comment line yang dapat digunakan untuk mengklasifikasikan codec
+//           audio/video yang akan digunakan.
+//              contoh:
+//                  @video x264
+//                  @audio opus
+//  *note: JANGAN PERNAH MENGGUNAKAN TANDA PANAH UNTUK COMMENT LINE MAUPUN VALUE!
+
+// Contoh Displayable Comment Line
+# Halo, namaku adalah Displayable Comment Line! owo)_/
+# Aku akan menemanimu sepanjang sore hari ini -w-)q
+
+// Hash # in Comment // Line -__-)
+
+value1=string
+value2=boolean
+value3=interger
+value4=float
+
+@audio opus
+@audio x264

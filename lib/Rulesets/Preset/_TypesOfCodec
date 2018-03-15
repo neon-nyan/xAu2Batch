@@ -1,0 +1,17 @@
+; Table untuk mengurai jenis codec yang akan digunakan
+; JANGAN SENTUH APAPUN!
+
+; t_CODEC           t_NAME
+    audio           opus
+    audio           vorbis
+    audio           lcaac
+    audio           heaac
+    audio           heaacv2
+    audio           mp3
+    audio           flac
+
+    video           x264
+    video           x265
+    video           vp8
+    video           vp9
+    video           av1

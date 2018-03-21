@@ -22,4 +22,4 @@ value3=interger
 value4=float
 
 @audio opus
-@audio x264
+@video x264

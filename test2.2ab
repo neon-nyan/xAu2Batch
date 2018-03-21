@@ -1,0 +1,10 @@
+@video x264
+x264-bframes=6
+x264-ref=16
+
+@audio opus
+opus-bitrate=96
+
+@filter true
+
+@lol wut?

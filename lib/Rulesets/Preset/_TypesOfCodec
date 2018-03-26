@@ -14,4 +14,10 @@
     video           vp9             Video\\_vp9
     video           av1             Video\\_av1
 
+
+; JANGAN MENGHAPUS ATAUPUN MENGUBAH DAN MENAMBAHKAN
+; TYPES DIBAWAH INI, KECUALI UNTUK KEPENTINGAN IMPLEMENTASI!!!
+
+; t_TYPES
     filter
+    source

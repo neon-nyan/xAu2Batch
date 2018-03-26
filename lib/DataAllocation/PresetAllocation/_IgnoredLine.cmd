@@ -96,8 +96,10 @@ REM                                 :: Display c_HASH To Output :3
                                         ) else (
                                             REM Throw Exception message to output and set codec type as unknown == true
                                             set _cdc_isType_Unknown=true
-                                            :DEBUG
-                                                echo ### Unknown Type detected: @%%a hasn't defined as type!
+                                            (
+                                                :DEBUG
+                                                    echo ### Unknown Type detected: @%%a hasn't defined as type!
+                                            )
                                         )
                                     )
 

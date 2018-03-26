@@ -1,3 +1,6 @@
+# Test DISPLAYABLE COMMENT
+// # Test DISPLAYABLE TAG ON NON-DISPLAYABLE COMMENT
+
 @source "E:\NGNL Z\_BDRIP_NGNL Z.ts"
     source-video-decoder=2
     source-video-track=1

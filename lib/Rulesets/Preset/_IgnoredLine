@@ -2,7 +2,7 @@
 ; JANGAN SENTUH APAPUN!
 ; DAN JANGAN HAPUS CLASS "c_COMMENT"!!!
 
-; c_HEAD        c_DISPLAY       c_CLASS         c_INCOMMENT
+; c_HEAD        c_DISPLAY       c_CLASS         c_INCOMMENT_IGNORE
     //          0               c_COMMENT       0
     #           1               c_HASH          1
     @           0               c_AT            1

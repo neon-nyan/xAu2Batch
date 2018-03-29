@@ -1,0 +1,38 @@
+# Test DISPLAYABLE COMMENT
+// # Test DISPLAYABLE TAG ON NON-DISPLAYABLE COMMENT
+
+@source "E:\NGNL Z\_BDRIP_NGNL Z.ts"
+    source-video-decoder=2
+    source-video-track=1
+    source-video-assumefps=23.976
+    source-video-colorformat=YUV420P8
+
+    source-audio-decoder=1
+    source-audio-track=2
+    source-audio-samplerate=44100
+    source-audio-channel=6
+
+@video x264
+    x264-bframes=6
+    x264-ref=16
+    x264-advancedoption=--zone 23/89,crf=38
+
+@audio opus
+    opus-bitrate=96
+    opus-delay=40
+    opus-channel=128
+
+@filter true
+    filter-dither=true
+    filter-dither-pass=1
+
+    filter-vfr=true
+    filter-vfr-estimationreso=128
+
+    filter-convertfps=true
+    filter-convertfps-method=1
+
+    filter-resize=true
+    filter-resize-x=1280
+    filter-resize-y=720
+    filter-resize-method=3

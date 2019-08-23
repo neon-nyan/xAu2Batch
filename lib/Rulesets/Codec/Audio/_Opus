@@ -1,4 +1,4 @@
 ; _cdc_RULES    _cdc_VALUE_TYPE     _cdc_VALUE_LIMITATION       _cdc_ALTERNATIVE_VALUE_TYPE     _cdc_ALTERNATIVE_VALUE_LIMITATION
     bitrate     FLOAT               32;512
     pass        STRING              1pass;2pass                 INT                             1-2
-    delay       STRING              5;10;20;40;60
+    delay       INT                 5;10;20;40;60
